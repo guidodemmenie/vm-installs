@@ -13,7 +13,7 @@ sudo apt-get update
 
 ## Installing Python3
 ```
-#sudo apt-get install python3
+#sudo apt-get install python3 # (apparently already installed on image from MS)
 sudo apt-get install -y python3-pip
 sudo python3 -m pip install --upgrade pip
 ```
