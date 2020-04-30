@@ -12,7 +12,7 @@ sudo apt-get update
 
 ## Installing Java JRE
 ```
-sudo apt-get install openjdk-8-jre-headless
+sudo apt-get install -y openjdk-8-jre-headless
 ```
 Getting an older one because SoapUI should work better on this one.
 
