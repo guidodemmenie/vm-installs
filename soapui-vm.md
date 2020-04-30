@@ -12,7 +12,7 @@ sudo apt-get update
 
 ## Installing Java JRE
 ```
-sudo apt-get install -y openjdk-8-jre-headless
+sudo apt-get install -y openjdk-8-jre
 ```
 Getting an older one because SoapUI should work better on this one.
 
@@ -21,5 +21,9 @@ Getting an older one because SoapUI should work better on this one.
 wget https://s3.amazonaws.com/downloads.eviware/soapuios/5.5.0/SoapUI-5.5.0-linux-bin.tar.gz
 sudo tar -xzf SoapUI-5.5.0-linux-bin.tar.gz -C /opt/
 cd /opt/SoapUI-5.5.0/bin/
-./soapui.sh
+```
+
+Running SoapUI
+```
+sudo ./soapui.sh
 ```
